@@ -36,29 +36,29 @@ public class MainActivity extends AppCompatActivity
         bankCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, MainActivity.class);
-                startActivity(i);
+                Intent int0 = new Intent(MainActivity.this, omathone.class);
+                startActivity(int0);
             }
         });
-        bankCard.setOnClickListener(new View.OnClickListener() {
+        ideasCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, MainActivity.class);
-                startActivity(i);
+                Intent int1 = new Intent(MainActivity.this, cmathone.class);
+                startActivity(int1);
             }
         });
-        bankCard.setOnClickListener(new View.OnClickListener() {
+        addCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, MainActivity.class);
-                startActivity(i);
+                Intent int2 = new Intent(MainActivity.this, scienceone.class);
+                startActivity(int2);
             }
         });
-        bankCard.setOnClickListener(new View.OnClickListener() {
+        linksCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, MainActivity.class);
-                startActivity(i);
+                Intent int3 = new Intent(MainActivity.this, extraone.class);
+                startActivity(int3);
             }
         });
 
