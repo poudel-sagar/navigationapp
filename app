@@ -22,7 +22,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    //cardview library for sdk version 29//
+    //cardview library for sdk version 29 and above//
     //implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.android.support:cardviewt-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
